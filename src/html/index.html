@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <link href="../css/outlines.css" rel="stylesheet">
     <title>LabTrade</title>
+    <script src="../js/first.js"></script>
 </head>
+<script src="../js/first.js"></script>
 <body>
 <header class="header">
     <img class="header__img" src="../assets/logo.png" alt="logo">
@@ -21,21 +23,91 @@
     </div>
     <div class="help">
         <h1 class="centred">Lab trading in 4 easy steps</h1>
-        <div class="help__content">
-            <img src="../assets/arrow.svg" alt="back" class="help__slider_left"/>
-            <img class="help__img"
-                 src="../assets/books%20of%20labs.png"
-                 alt="books of labs"
-            >
-            <div class="centred" >
-                <strong class="help__numbers">1/4</strong>
-                <h2 class="help__title">Shortlist  the labs what you want</h2>
-                <p class="help__description">Digital culture? DevTools? Machine learning?
-                    Whatever you’re looking for, use our search filters to
-                    find labs that are just right for you
-                </p>
+        <div class="slideshow-container">
+            <div class="help__content">
+                <a class="help__slider_left" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="slide-container">
+                    <img class="help__img"
+                         src="../assets/books%20of%20labs.png"
+                         alt="books of labs"
+                    >
+                    <div class="centred" >
+                        <strong class="help__numbers">1/4</strong>
+                        <h2 class="help__title">Shortlist  the labs what you want</h2>
+                        <p class="help__description">Digital culture? DevTools? Machine learning?
+                            Whatever you’re looking for, use our search filters to
+                            find labs that are just right for you
+                        </p>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-container">
+                    <img class="help__img"
+                         src="../assets/photo%20of%20labs.jpg"
+                         alt="books of labs"
+                    >
+                    <div class="centred" >
+                        <strong class="help__numbers">2/4</strong>
+                        <h2 class="help__title">Offer something
+                            to the user </h2>
+                        <p class="help__description"> You could offer to the user something of your own in return.
+                            For example, you can offer your some other labs, moreover
+                            you could propose a cash.
+                        </p>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-container">
+                    <img class="help__img"
+                         src="../assets/people.jpg"
+                         alt="books of labs"
+                    >
+                    <div class="centred" >
+                        <strong class="help__numbers">3/4</strong>
+                        <h2 class="help__title">User accept
+                            the trade</h2>
+                        <p class="help__description">If the user like your trade,
+                            he or she accept the trade and
+                            everyone gets what they want
+                            afsdfasdfasddddddddddddddddddddddddddddddddddddf
+                        </p>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-container">
+                    <img class="help__img"
+                         src="../assets/smile.jpg"
+                         alt="books of labs"
+                    >
+                    <div class="centred" >
+                        <strong class="help__numbers">4/4</strong>
+                        <h2 class="help__title">You just enjoy the work done</h2>
+                        <p class="help__description">Finally you happy! asdfa sdf asdf asdf asdf sadf  a Finally you happy! asdfa sdf asdf asdf asdf sadf  a asdfasdf asdfasd</p>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+                <a class="help__slider_right" onclick="plusSlides(+1)">&#10095;</a>
             </div>
-            <img class="help__slider_right rotated" src="../assets/arrow.svg" alt="forward"/>
         </div>
     </div>
     <div class="content_light_grey row">
@@ -71,8 +143,8 @@
 </main>
 
 <footer class="footer">
-    <div class="footer__addr">
-    </div>
+<!--    <div class="footer__addr">-->
+<!--    </div>-->
     <ul class="footer__nav">
         <li class="nav__item">
             <h2 class="nav__title">Trading Post</h2>
