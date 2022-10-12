@@ -26,28 +26,10 @@ li {
 .header__nav {
     margin-left: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-right: 55px;
     width: 400px;
-}
-
-@media only screen and (min-width: 768px) {
-    .header__nav {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .header__nav {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .header__nav {
-        font-size: 26px;
-    }
 }
 
 .container {
@@ -69,11 +51,26 @@ li {
     .img-text {
         font-size: 20px;
     }
+    .help__img {
+        width: 225px;
+        height: 200px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
     .img-text {
         font-size: 26px;
+    }
+    .help__img {
+        width: 225px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    .help__img {
+        width: 250px;
+        height: 225px;
     }
 }
 
@@ -81,17 +78,38 @@ li {
     .img-text {
         font-size: 30px;
     }
+    .header__nav {
+        font-size: 18px;
+    }
+    .help__img {
+        width: 375px;
+        height: 350px;
+    }
 }
 
 @media only screen and (min-width: 900px) {
     .img-text {
         font-size: 36px;
     }
+    .header__nav {
+        font-size: 20px;
+    }
+    .help__img {
+        width: 400px;
+        height: 375px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
     .img-text {
         font-size: 40px;
+    }
+    .header__nav {
+        font-size: 26px;
+    }
+    .help__img {
+        width: 400px;
+        height: 375px;
     }
 }
 
@@ -133,6 +151,7 @@ li {
 
 .slide-container {
     display: none;
+    align-items: center;
     margin: 5%;
 }
 
@@ -155,44 +174,8 @@ li {
 .help__img {
     margin-left: 5%;
     border-radius: 10px;
-    width: 300px;
-    height: 275px;
 }
 
-@media only screen and (min-width: 400px) {
-    .help__img {
-        width: 325px;
-        height: 300px;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .help__img {
-        width: 350px;
-        height: 325px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .help__img {
-        width: 375px;
-        height: 350px;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .help__img {
-        width: 400px;
-        height: 375px;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .help__img {
-        width: 425px;
-        height: 400px;
-    }
-}
 
 .help__slider_left, .help__slider_right {
     cursor: pointer;
