@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+}
+
+.header__img {
+    width: 12%;
+}
+
+.header__nav {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 55px;
+    width: 400px;
+}
+
+.header__nav__item {
+    text-decoration: none;
+    color: #222;
+    position: relative;
+    padding: 10px;
+}
+
+a.header__nav__item:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    width: 0;
+    height: 100%;
+
+    border-bottom: 2px solid black;
+
+    transition: width 0.3s ease;
+}
+
+a.header__nav__item:hover:after {
+    left: 0;
+    width: 100%;
+    transition: width .3s ease;
+}

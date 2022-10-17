@@ -1,0 +1,35 @@
+body,
+div {
+    margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.container {
+    position: relative;
+    color: white;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+.centred {
+    text-align: center
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
