@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/outlines.css" rel="stylesheet">
+    <link href="../css/general.css" rel="stylesheet">
+    <link href="../css/help.css" rel="stylesheet">
+    <link href="../css/statistic.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/header.css" rel="stylesheet">
+    <link href="../css/lab-content.css" rel="stylesheet">
+    <link href="../css/girl.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+<header class="header">
+    <img class="header__img" src="../assets/logo.png" alt="logo">
+    <nav class="header__nav">
+        <a href="http://localhost:63342/LabTrade/src/html/index.html#help" class="header__nav__item">Home</a>
+        <a href="http://localhost:63342/LabTrade/src/html/labs.html" class="header__nav__item">Labs</a>
+        <a href="http://localhost:63342/LabTrade/src/html/index.html#help" class="header__nav__item">Lectures</a>
+        <a href="http://localhost:63342/LabTrade/src/html/index.html#help" class="header__nav__item">Sing in</a>
+        <a href="http://localhost:63342/LabTrade/src/html/index.html#help" class="header__nav__item">Sing up</a>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <img src="../assets/girl.png" alt="girl" class="img-girl">
+        <a class="img-text">Start to trade your labs online for free</a>
+    </div>
+    <div class="help" id="help">
+        <h1 class="centred">Lab trading in 4 easy steps</h1>
+        <div class="slideshow-container">
+            <div class="help__content">
+                <a class="help__slider_left" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="slide-container fade">
+                    <img class="help__img"
+                         src="../assets/books%20of%20labs.png"
+                         alt="books of labs"
+                    >
+                    <div class="centred">
+                        <strong class="help__numbers">1/4</strong>
+                        <h2 class="help__title">Shortlist the labs what you want</h2>
+                        <p class="help__description">Digital culture? DevTools? Machine learning?
+                            Whatever you’re looking for, use our search filters to
+                            find labs that are just right for you. And choose the best option.
+                        </p>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-container fade">
+                    <img class="help__img"
+                         src="../assets/photo%20of%20labs.jpg"
+                         alt="books of labs"
+                    >
+                    <div class="centred">
+                        <strong class="help__numbers">2/4</strong>
+                        <h2 class="help__title">Offer something
+                            to the user </h2>
+                        <p class="help__description"> You could offer to the user something of your own in return.
+                            For example, you can offer your some other labs, moreover
+                            you could propose a cash.
+                        </p>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-container fade">
+                    <img class="help__img"
+                         src="../assets/claudia-raya-liJGb5bsVQU-unsplash.jpg"
+                         alt="books of labs"
+                    >
+                    <div class="centred">
+                        <strong class="help__numbers">3/4</strong>
+                        <h2 class="help__title">User accept
+                            the trade</h2>
+                        <p class="help__description">
+                            If the user like your trade, he or she accept the trade and everyone
+                            gets what they want. But the trade have to equivalent. For example,
+                            Web programming 1 lab to Devtools 1 lab or to cash :)
+                        </p>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-container  fade">
+                    <img class="help__img"
+                         src="../assets/happy1.jpg"
+                         alt="books of labs"
+                    >
+                    <div class="centred">
+                        <strong class="help__numbers">4/4</strong>
+                        <h2 class="help__title">You just enjoy the work done</h2>
+                        <p class="help__description">
+                            Finally you happy! But, in the end I would like recommend to you
+                            to get to grips with work. So I won't be ashamed that I did this site.
+                            And you could get good scores for the lab.
+                        </p>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+                <a class="help__slider_right" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+    </div>
+    <div class="content_light_grey row">
+        <div>
+            <img src="../assets/folder.png" alt="folder">
+            <p class="centred">
+                <strong class="content__text_strong">1900</strong>
+            </p>
+            <p class="centred">
+                <strong class="content__text_strong">items</strong>
+            </p>
+        </div>
+        <div>
+            <img src="../assets/exchange.png" alt="exchange">
+            <p class="centred">
+                <strong class="content__text_strong">2100</strong>
+            </p>
+            <p class="centred">
+                <strong class="content__text_strong">trades</strong>
+            </p>
+        </div>
+        <div>
+            <img src="../assets/community.png" alt="community">
+            <p class="centred">
+                <strong class="content__text_strong">1500</strong>
+            </p>
+            <p class="centred">
+                <strong class="content__text_strong">members</strong>
+            </p>
+        </div>
+    </div>
+    <h1 class="centred">Some labs for you</h1>
+    <div class="lab-content">
+        <div class="wrap lab-content__img-wrapper">
+            <img src="../assets/Frame%2039.png" class="lab-content__item blur" alt="lab"/>
+            <div class="lab-content__img-wrapper__text fade centred">lab 5 by
+                <a href="/AlexBossov">
+                    AlexBossov
+                </a>
+            </div>
+        </div>
+        <div class="wrap lab-content__img-wrapper">
+            <img src="../assets/Frame%2040.png" class="lab-content__item blur" alt="lab"/>
+            <div class="lab-content__img-wrapper__text fade centred">lab 4 by
+                <a href="/Alex">
+                    Alex
+                </a>
+            </div>
+        </div>
+        <div class="wrap lab-content__img-wrapper">
+            <img src="../assets/Frame%2039.png" class="lab-content__item blur" alt="lab"/>
+            <div class="lab-content__img-wrapper__text fade centred">lab 1 by <a href="/Kostya">Kostya</a></div>
+        </div>
+        <div class="wrap lab-content__img-wrapper">
+            <img src="../assets/Frame%2041.png" class="lab-content__item blur" alt="lab"/>
+            <div class="lab-content__img-wrapper__text fade centred">lab 4 by
+                <a href="/Kirill">
+                    Kirill
+                </a>
+            </div>
+        </div>
+        <div class="wrap lab-content__img-wrapper">
+            <img src="../assets/Frame%2039.png" class="lab-content__item blur" alt="lab"/>
+            <div class="lab-content__img-wrapper__text fade centred">lab 1 by
+                <a href="/Oleg">
+                    Oleg
+                </a>
+            </div>
+        </div>
+        <div class="wrap lab-content__img-wrapper">
+            <img src="../assets/Frame%2040.png" class="lab-content__item blur" alt="lab"/>
+            <div class="lab-content__img-wrapper__text fade centred">lab 4 by
+                <a href="/Igor">
+                    Igor
+                </a>
+            </div>
+        </div>
+        <div class="wrap lab-content__img-wrapper">
+            <img src="../assets/Frame%2039.png" class="lab-content__item blur" alt="lab"/>
+            <div class="lab-content__img-wrapper__text fade centred">lab 1 by
+                <a href="/Rostislave">
+                    Rostislave
+                </a>
+            </div>
+        </div>
+        <div class="wrap lab-content__img-wrapper">
+            <img src="../assets/Frame%2041.png" class="lab-content__item blur" alt="lab"/>
+            <div class="lab-content__img-wrapper__text fade centred">lab 4 by
+                <a href="/Zhenya">
+                    Zhenya
+                </a>
+            </div>
+        </div>
+        <div class="wrap lab-content__img-wrapper">
+            <img src="../assets/Frame%2041.png" class="lab-content__item blur" alt="lab"/>
+            <div class="lab-content__img-wrapper__text fade centred">lab 2 by
+                <a href="/Zhenya">
+                    Zhenya
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <!--    <div class="footer__addr">-->
+    <!--    </div>-->
+    <ul class="footer__nav">
+        <li class="nav__item">
+            <h2 class="nav__title">Trading Post</h2>
+            <ul class="nav__ul">
+                <li>
+                    <a href="#">Labs</a>
+                </li>
+
+                <li>
+                    <a href="#">Search</a>
+                </li>
+
+                <li>
+                    <a href="#">Categories</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav__item">
+            <h2 class="nav__title">Boring staff</h2>
+            <ul class="nav__ul">
+                <li>
+                    <a href="#">Why LabTrade?</a>
+                </li>
+                <li>
+                    <a href="#">How to trade your labs?</a>
+                </li>
+                <li>
+                    <a href="#">About LabTrade</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav__item">
+            <h2 class="nav__title">Contact</h2>
+            <ul class="nav__ul">
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+                <li>
+                    <a href="#">Telegram</a>
+                </li>
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="legal">
+        <p>&copy; 2022 Something. All rights reserved.</p>
+
+        <div class="legal__links">
+            <span>Made with <span class="heart">♥</span> by AlexBossov</span>
+        </div>
+    </div>
+</footer>
+<script src="../js/first.js"></script>
+<script src="../js/second.js"></script>
+
+</body>
+</html>
