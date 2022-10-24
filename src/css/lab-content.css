@@ -13,7 +13,6 @@
 }
 
 
-
 .lab-content__img-wrapper > .lab-content__img-wrapper__text, .lab-content__img-wrapper__button {
     position: absolute;
     inset: 0;
@@ -34,11 +33,11 @@
     filter: blur(5px);
 }
 
-.lab-content__img-wrapper > .lab-content__img-wrapper__text.fade, .lab-content__img-wrapper__button.fade {
+.lab-content__img-wrapper > .lab-content__img-wrapper__text.lab-fade, .lab-content__img-wrapper__button.lab-fade {
     opacity: 0;
 }
 
-.lab-content__img-wrapper:hover > .lab-content__img-wrapper__text.fade, .lab-content__img-wrapper__button.fade {
+.lab-content__img-wrapper:hover > .lab-content__img-wrapper__text.lab-fade, .lab-content__img-wrapper__button.lab-fade {
     opacity: 1;
 }
 

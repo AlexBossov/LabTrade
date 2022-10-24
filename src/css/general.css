@@ -1,7 +1,10 @@
 body,
 div {
     margin: 0;
+    font-family: 'Didact Gothic', serif;
 }
+
+
 
 input,
 button,
@@ -33,3 +36,4 @@ li {
     flex-flow: row;
     justify-content: space-between;
 }
+
