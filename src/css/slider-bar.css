@@ -54,6 +54,7 @@ input[type="checkbox"] {
 /* Hide the default checkbox */
 input[type=checkbox] {
     visibility: hidden;
+    display: none;
 }
 
 /* creating a custom checkbox based
