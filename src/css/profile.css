@@ -1,0 +1,114 @@
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__labs_container > .lab-content {
+    width: 90%;
+    margin-left: 80px;
+}
+
+
+.profile__container {
+    margin: 3% 15%;
+    min-width: 940px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFC1C1;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.profile__container__avatar {
+    height: 160px;
+    width: 160px;
+}
+
+.profile__container__description {
+    float: right;
+    margin-left: 20px;
+}
+
+.profile__container__description--mini {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.profile__container__description__nickname {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.profile__container__description__status {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.profile__container__description__lol1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.profile__container__description__lol2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.profile__container__rate {
+    float: right;
+
+}
+
+.profile__container__rate__percent {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.profile__container__rate__line {
+    background-color: #7FCAFF;
+    border-radius: 10px;
+    height: 10px;
+    width: auto;
+    margin-bottom: 9px;
+}
+
+.profile__container__inscription {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.profile__container__Lool {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile__container__rate__cron {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.profile__container__rate__inscription {
+    float: right;
+    font-size: 18px;
+    color: #0095FF;
+    margin-right: 3%;
+    margin-top: 3%;
+}
