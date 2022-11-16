@@ -7,3 +7,9 @@
     left: 10%;
     top: 15%;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .img-text {
+        font-size: 50px;
+    }
+}

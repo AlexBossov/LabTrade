@@ -6,6 +6,7 @@
     .help__img {
         width: 225px;
         height: 200px;
+        display: none;
     }
 
     .lab-content__item {
@@ -22,6 +23,7 @@
     .help__img {
         width: 225px;
         height: 200px;
+        display: none;
     }
 
     .lab-content__item {
@@ -34,6 +36,7 @@
     .help__img {
         width: 250px;
         height: 225px;
+        display: none;
     }
 
     .lab-content__item {
@@ -99,5 +102,13 @@
     .lab-content__item {
         height: 400px;
         width: 400px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .lab-content__item {
+        height: 650px;
+        width: 650px;
+        border-radius: 30px;
     }
 }

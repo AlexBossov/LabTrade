@@ -48,3 +48,65 @@ a.header__nav__item:hover:after {
     width: 100%;
     transition: width .3s ease;
 }
+
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .header__nav__item {
+        font-size: 140%;
+    }
+    .header__nav__item--underline {
+        font-size: 140%;
+    }
+    .header__nav {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .header__nav__item {
+        font-size: 100%;
+    }
+    .header__nav {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px){
+    .header__nav__item {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px){
+    .header__nav__item {
+        font-size: 100%;
+    }
+    .header__nav__item--underline {
+        font-size: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .header__nav__item {
+        font-size: 100%;
+    }
+    .header__nav__item--underline {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .header__nav__item {
+        font-size: 180%;
+    }
+    .header__nav__item--underline {
+        font-size: 180%;
+    }
+    .header__nav {
+        width: 70%;
+    }
+    .header__img {
+        width: 20%;
+    }
+}

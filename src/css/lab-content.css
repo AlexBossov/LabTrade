@@ -49,3 +49,7 @@
 .lab-content__img-wrapper__text {
     display: flex;
 }
+
+@media only screen and (max-device-width: 480px) {
+
+}

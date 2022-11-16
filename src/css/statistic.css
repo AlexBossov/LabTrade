@@ -1,8 +1,28 @@
 .content_light_grey {
     background-color: #F8F8F8;
     padding: 3% 10% 3% 10%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_light_grey__part {
+    margin: 25px 0;
+}
+
+.content_light_grey__part--squeeze {
+    margin: -10px;
 }
 
 .content__text_strong {
     font-size: 40px;
+}
+
+@media only screen and (max-width: 650px) {
+    .content_light_grey {
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
