@@ -19,3 +19,14 @@
     width: 22%;
     font-size: 17px;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .search-bar {
+        width: 60%;
+        font-size: 40px;
+    }
+    .search-bar:focus {
+        width: 60%;
+        font-size: 40px;
+    }
+}
