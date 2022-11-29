@@ -29,6 +29,278 @@
     margin: 20px;
 }
 
+.lab-item-content__description {
+    max-width: 20%;
+}
+
+.lab-item-content__description__details--mini {
+    font-size: 20px;
+}
+
 .lab-item-content__description__title {
     font-weight: bolder;
+    font-size: 24px;
+}
+
+.lab-item-content__description__details {
+    font-size: 20px;
+}
+
+
+.lab-item-content__description__button {
+    width: 100%;
+    height: 10%;
+    border-radius: 15px;
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    background-color: #FA8128;
+    margin-bottom: 10%;
+}
+
+.lab-item-content__description__dialog {
+    border-radius: 25px;
+}
+
+.lab-item-content__description__dialog__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lab-item-content__description__dialog__title {
+
+}
+
+.lab-item-content__description__dialog__form__lab--main {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.lab-item-content__description__dialog__form__offer-content {
+    height: 150px;
+    width: 90%;
+    border: 3px solid;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.lab-item-content__description__dialog__form__lab-list {
+    border: 3px solid;
+    border-radius: 10px;
+    width: 86%;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.lab-item-content__description__dialog__textarea {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.lab-item-content__description__dialog__button-box {
+    padding-left: 70px;
+    padding-right: 60px;
+}
+
+.lab-item-content__description__dialog__button--cancel {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    margin-right: 100px;
+}
+
+.lab-item-content__description__dialog__button--offer {
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #0095FF;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+.lab-item-content__description__review {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.lab-item-content__description__rating {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.lab-item-content__description__rating__star {
+    height: 25px;
+    width: 25px;
+}
+
+
+@media only screen and (min-width: 400px) {
+    .lab-item-content__img {
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .lab-item-content {
+        flex-direction: column;
+    }
+    .lab-item-content__description {
+        max-width: 480px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .lab-item-content__img {
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .lab-item-content {
+        flex-direction: column;
+    }
+    .lab-item-content__description {
+        max-width: 480px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    .lab-item-content__img {
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .lab-item-content {
+        flex-direction: column;
+    }
+    .lab-item-content__description {
+        max-width: 480px;
+        margin-left: 30px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .lab-item-content__img {
+        width: 450px;
+        height: 450px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .lab-item-content__description__review {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .lab-item-content {
+        flex-direction: column;
+    }
+    .lab-item-content__description {
+        max-width: 580px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .lab-item-content__img {
+        width: 450px;
+        height: 450px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .lab-item-content__description__review {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .lab-item-content {
+        flex-direction: row;
+    }
+    .lab-item-content__description {
+        max-width: 20%;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .lab-item-content__img {
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .lab-item-content__description__review {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .lab-item-content__description {
+        max-width: 20%;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .lab-item-content__img {
+        width: 550px;
+        height: 550px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .lab-item-content__description__review {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .lab-item-content__description {
+        max-width: 20%;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .lab-item-content__img {
+        width: 625px;
+        height: 625px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .lab-item-content__description__review {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+    .lab-item-content__description {
+        max-width: 20%;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .lab-item-content__img {
+        width: 650px;
+        height: 650px;
+        border-radius: 20px;
+        margin: 20px;
+    }
 }

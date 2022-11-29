@@ -1,123 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link href="../css/outlines.css" rel="stylesheet">
-  <link href="../css/general.css" rel="stylesheet">
-  <link href="../css/help.css" rel="stylesheet">
-  <link href="../css/statistic.css" rel="stylesheet">
-  <link href="../css/footer.css" rel="stylesheet">
-  <link href="../css/header.css" rel="stylesheet">
-  <link href="../css/lab-content.css" rel="stylesheet">
-  <link href="../css/girl.css" rel="stylesheet">
-  <link href="../css/lab.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
-  <title>lab</title>
+    <meta charset="UTF-8">
+    <link href="../css/outlines.css" rel="stylesheet">
+    <link href="../css/general.css" rel="stylesheet">
+    <link href="../css/help.css" rel="stylesheet">
+    <link href="../css/statistic.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/header.css" rel="stylesheet">
+    <link href="../css/lab-content.css" rel="stylesheet">
+    <link href="../css/girl.css" rel="stylesheet">
+    <link href="../css/lab.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <title>lab</title>
 </head>
 <body>
 <header class="header">
-  <img class="header__img" src="../assets/logo.png" alt="logo">
-  <nav class="header__nav">
-    <a href="index.html" class="header__nav__item">Home</a>
-    <a href="labs.html" class="header__nav__item">Labs</a>
-    <a href="lectures.html" class="header__nav__item">Lectures</a>
-    <a href="index.html#help" class="header__nav__item">Sing in</a>
-    <a href="index.html#help" class="header__nav__item">Sing up</a>
-  </nav>
+    <img class="header__img" src="../assets/logo.png" alt="logo">
+    <nav class="header__nav">
+        <a href="index.html" class="header__nav__item">Home</a>
+        <a href="labs.html" class="header__nav__item">Labs</a>
+        <a href="lectures.html" class="header__nav__item">Lectures</a>
+        <a href="index.html#help" class="header__nav__item">Sing in</a>
+        <a href="index.html#help" class="header__nav__item">Sing up</a>
+    </nav>
 </header>
 <main>
-  <h1 class="lab-title">Lab 3</h1>
-  <div class="lab-item-content">
-    <div class="">
-      <div class="lab-item-content__lab-list">
-        <img class="lab-item-content__lab-list__img" src="../assets/photo%20of%20labs.jpg" alt="">
-        <img class="lab-item-content__lab-list__img" src="../assets/photo%20of%20labs.jpg" alt="">
-        <img class="lab-item-content__lab-list__img" src="../assets/photo%20of%20labs.jpg" alt="">
-      </div>
-      <img class="lab-item-content__img" src="../assets/photo%20of%20labs.jpg" alt="">
-    </div>
-    <div class="lab-item-content__description">
-      <h2>Web Programming</h2>
-      <p>Simple and cool.
-        No plagiarism.</p>
-      <p class="lab-item-content__description__title"></p>
-      <div>
-        <div class="lab-item-content__description__language"></div>
-        <div class="lab-item-content__description__language"></div>
-        <div class="lab-item-content__description__language"></div>
-      </div>
-      <button></button>
-      <hr>
-      <div>
-        <p class="lab-item-content__description__title">details</p>
-        <p></p>
-      </div>
-      <hr>
-      <div>
-        <p class="lab-item-content__description__title">review</p>
-        <div>
-          <img src="star" alt="">
+    <h1 class="lab-title">Lab 3</h1>
+    <div class="lab-item-content">
+        <div class="">
+            <div class="lab-item-content__lab-list">
+                <img class="lab-item-content__lab-list__img" src="../assets/photo%20of%20labs.jpg" alt="">
+                <img class="lab-item-content__lab-list__img" src="../assets/photo%20of%20labs.jpg" alt="">
+                <img class="lab-item-content__lab-list__img" src="../assets/photo%20of%20labs.jpg" alt="">
+            </div>
+            <img class="lab-item-content__img" src="../assets/photo%20of%20labs.jpg" alt="">
         </div>
-      </div>
+        <div class="lab-item-content__description">
+            <h1>Web Programming</h1>
+            <p class="lab-item-content__description__details--mini">Simple and cool. No plagiarism.</p>
+            <div>
+                <div class="lab-item-content__description__language"></div>
+                <div class="lab-item-content__description__language"></div>
+                <div class="lab-item-content__description__language"></div>
+            </div>
+            <dialog id="dialog" class="lab-item-content__description__dialog">
+                <form method="dialog" class="lab-item-content__description__dialog__form">
+                    <h1 class="lab-item-content__description__dialog__title">Trade</h1>
+                    <img class="lab-item-content__description__dialog__form__lab--main" src="../assets/photo%20of%20labs.jpg" alt="lab">
+                    <div class="lab-item-content__description__dialog__form__offer-content">
+
+                    </div>
+                    <div class="lab-item-content__description__dialog__form__lab-list">
+                        <div class="lab-item-content__description__dialog__form__lab-list__item">
+                            Web Programming lab 1
+                        </div>
+                        <hr>
+                        <div class="lab-item-content__description__dialog__form__lab-list__item">
+                            Windows server lab 4
+                        </div>
+                        <hr>
+                    </div>
+                    <label>
+                        <textarea placeholder="Your message..." cols="51" rows="5"
+                                  class="lab-item-content__description__dialog__textarea"></textarea>
+                    </label>
+                    <div class="lab-item-content__description__dialog__button-box">
+                        <button class="lab-item-content__description__dialog__button--cancel">Close</button>
+                        <button class="lab-item-content__description__dialog__button--offer">Confirm</button>
+                    </div>
+                </form>
+            </dialog>
+            <button class="lab-item-content__description__button" onclick="dialog.showModal()">Trade</button>
+            <hr>
+            <div>
+                <p class="lab-item-content__description__title">details</p>
+                <p class="lab-item-content__description__details">
+                    The 3 lab of the web programming.
+                    It includes 4 html 6 css files.
+                    I got the 12 points from Chlopotov where passed it.
+                </p>
+            </div>
+            <hr>
+            <div class="lab-item-content__description__review">
+                <p class="lab-item-content__description__title">review</p>
+                <div class="lab-item-content__description__rating">
+                    <img class="lab-item-content__description__rating__star" src="../assets/star.png" alt="star">
+                    <img class="lab-item-content__description__rating__star" src="../assets/star.png" alt="star">
+                    <img class="lab-item-content__description__rating__star" src="../assets/star.png" alt="star">
+                    <img class="lab-item-content__description__rating__star" src="../assets/star.png" alt="star">
+                    <img class="lab-item-content__description__rating__star" src="../assets/star.png" alt="star">
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </main>
 <footer class="footer">
-  <!--    <div class="footer__addr">-->
-  <!--    </div>-->
-  <ul class="footer__nav">
-    <li class="nav__item">
-      <h2 class="nav__title">Trading Post</h2>
-      <ul class="nav__ul">
-        <li>
-          <a href="#">Labs</a>
-        </li>
+    <!--    <div class="footer__addr">-->
+    <!--    </div>-->
+    <ul class="footer__nav">
+        <li class="nav__item">
+            <h2 class="nav__title">Trading Post</h2>
+            <ul class="nav__ul">
+                <li>
+                    <a href="#">Labs</a>
+                </li>
 
-        <li>
-          <a href="#">Search</a>
-        </li>
+                <li>
+                    <a href="#">Search</a>
+                </li>
 
-        <li>
-          <a href="#">Categories</a>
+                <li>
+                    <a href="#">Categories</a>
+                </li>
+            </ul>
         </li>
-      </ul>
-    </li>
-    <li class="nav__item">
-      <h2 class="nav__title">Boring staff</h2>
-      <ul class="nav__ul">
-        <li>
-          <a href="#">Why LabTrade?</a>
+        <li class="nav__item">
+            <h2 class="nav__title">Boring staff</h2>
+            <ul class="nav__ul">
+                <li>
+                    <a href="#">Why LabTrade?</a>
+                </li>
+                <li>
+                    <a href="#">How to trade your labs?</a>
+                </li>
+                <li>
+                    <a href="#">About LabTrade</a>
+                </li>
+            </ul>
         </li>
-        <li>
-          <a href="#">How to trade your labs?</a>
+        <li class="nav__item">
+            <h2 class="nav__title">Contact</h2>
+            <ul class="nav__ul">
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+                <li>
+                    <a href="#">Telegram</a>
+                </li>
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+            </ul>
         </li>
-        <li>
-          <a href="#">About LabTrade</a>
-        </li>
-      </ul>
-    </li>
-    <li class="nav__item">
-      <h2 class="nav__title">Contact</h2>
-      <ul class="nav__ul">
-        <li>
-          <a href="#">Instagram</a>
-        </li>
-        <li>
-          <a href="#">Telegram</a>
-        </li>
-        <li>
-          <a href="#">Facebook</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
-  <div class="legal">
-    <p>&copy; 2022 Something. All rights reserved.</p>
+    </ul>
+    <div class="legal">
+        <p>&copy; 2022 Something. All rights reserved.</p>
 
-    <div class="legal__links">
-      <span>Made with <span class="heart">♥</span> by AlexBossov</span>
+        <div class="legal__links">
+            <span>Made with <span class="heart">♥</span> by AlexBossov</span>
+        </div>
     </div>
-  </div>
 </footer>
 <script src="../js/first.js"></script>
 <script src="../js/second.js"></script>
